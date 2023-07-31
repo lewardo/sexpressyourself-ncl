@@ -56,5 +56,6 @@ import Footer from '@/components/Footer.vue'
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 0;
   }
 </style>

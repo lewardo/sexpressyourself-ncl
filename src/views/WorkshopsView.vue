@@ -3,7 +3,15 @@ import PageTitle from '@/components/PageTitle.vue'
 </script>
 
 <template>
-  <main>
+  <PageTitle title="Home"/>
 
-  </main>
+  <div class="content">
+    
+  </div>
 </template>
+
+<style scoped>
+  .content {
+    flex-grow: 1;
+  }
+</style>
