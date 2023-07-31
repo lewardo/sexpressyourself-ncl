@@ -19,9 +19,10 @@
 body {
   position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   top: 0;
   left: 0;
+  overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
 
   color: var(--color-text);
