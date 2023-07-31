@@ -1,44 +1,80 @@
 <script setup>
 defineProps({
-  msg: {
+  title: {
     type: String,
     required: true
+  },
+  subtitle: {
+    type: Boolean,
+    required: false,
+    default: true
+  },
+  schedule: {
+    type: Boolean,
+    required: false,
+    default: false
   }
 })
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
-  </div>
+    <div class="title">
+        <a href="/">
+            <img src="@/assets/img/title.png" class="title-img" alt="sexpress yourself conference banner" draggable="false">
+        </a>
+        <div v-if="subtitle" class="subtitle">
+            <span>{{ title }}</span>
+            <a v-if="schedule" href="./assets/schedule.pdf">
+                <span class="download-schedule">Schedule</span>
+            </a>
+        </div>
+    </div>
 </template>
 
 <style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-}
+    .title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-h3 {
-  font-size: 1.2rem;
-}
+    .title > a {
+        max-height: 30vh;
+    }
 
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
+    .title-img {
+        height: 100%;
+    }
 
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
-}
+    @media screen and ( max-aspect-ratio: 5/4 ) {
+        .title-img {
+            max-width: 80vw;
+        }
+    }
+
+    .subtitle {
+        width: 100%;
+        line-height: min(6vh, 8vw);
+        font-size: min(3vh, 4vw);
+        display: flex;
+        justify-content: center;
+        margin: 1vh 0;
+    }
+
+    .subtitle > span {
+        color: #fff;
+        background-color: #0f0a62;
+        padding: 0 min(24px, 5vw);
+        border-radius: 100vw;
+    }
+
+    .subtitle a {
+        color: #fff;
+        background-color: #ff3131;
+        text-decoration: none;
+        padding: 0 min(24px, 5vw);
+        margin: 0 0 0 12px;
+        border-radius: 100vw;
+    }
 </style>
