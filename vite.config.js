@@ -14,6 +14,7 @@ export default defineConfig({
     }
   },
   build: {
+    outDir: '../docs', // so github pages doesnt have a stronk
     rollupOptions: {
       output: {
         entryFileNames: `assets/js/[name].js`,
