@@ -13,9 +13,9 @@ import Footer from '@/components/Footer.vue'
     <img src="@/assets/img/bg_sw.png" id="bg_sw" draggable="false">
   </div>
   <div class="app-content fullsize">
-    <Header></Header>
+    <Header />
     <RouterView />
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
