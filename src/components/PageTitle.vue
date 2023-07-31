@@ -24,7 +24,7 @@ defineProps({
         </a>
         <div v-if="subtitle" class="subtitle">
             <span>{{ title }}</span>
-            <a v-if="schedule" href="./assets/schedule.pdf">
+            <a v-if="schedule" href="/assets/schedule.pdf">
                 <span class="download-schedule">Schedule</span>
             </a>
         </div>
