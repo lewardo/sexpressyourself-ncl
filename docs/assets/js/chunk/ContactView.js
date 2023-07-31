@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as o,a as s,F as c,P as _,p as n,b as d,d as p}from"../index.js";const l=e=>(n("data-v-703ad09a"),e=e(),d(),e),r=l(()=>p("div",{class:"content"},null,-1)),i={__name:"ContactView",setup(e){return(u,m)=>(t(),o(c,null,[s(_,{title:"Contact Us"}),r],64))}},V=a(i,[["__scopeId","data-v-703ad09a"]]);export{V as default};

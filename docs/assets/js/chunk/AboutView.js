@@ -1,1 +1,0 @@
-import{_ as t,o,c as a,a as s,F as _,P as c,p as d,b as p,d as n}from"../index.js";const l=e=>(d("data-v-26384d89"),e=e(),p(),e),r=l(()=>n("div",{class:"content"},null,-1)),u={__name:"AboutView",setup(e){return(i,m)=>(o(),a(_,null,[s(c,{title:"About"}),r],64))}},v=t(u,[["__scopeId","data-v-26384d89"]]);export{v as default};
