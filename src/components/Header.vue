@@ -34,8 +34,8 @@ import { RouterLink } from 'vue-router'
     }
 
     .header > * {
-        line-height: 6vh;
-        font-size: 3vh;
+        line-height: min(6vh, 8vw);
+        font-size: min(3vh, 4vw);
         text-align: center;
         min-width: 20vw;
         color: #fff;
@@ -52,7 +52,7 @@ import { RouterLink } from 'vue-router'
 
     @media screen and ( max-aspect-ratio: 1/1 ) {
         .header > * {
-            min-width: 6vh;
+            min-width: min(6vh, 8vw);
         }
 
         .header > * span {

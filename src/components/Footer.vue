@@ -25,9 +25,9 @@
     }
 
     .footer a.mail {
-        line-height: 6vh;
-        font-size: 3vh;
-        width: 6vh;
+        line-height: min(6vh, 8vw);
+        font-size: min(3vh, 4vw);
+        width: min(6vh, 8vw);
         position: absolute;
         left: 2vh;
         border-radius: 6vh;
