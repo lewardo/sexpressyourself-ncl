@@ -3,8 +3,8 @@ import PageTitle from '@/components/PageTitle.vue'
 </script>
 
 <template>
-  <PageTitle title="Home"/>
-
+  <PageTitle title="Home" :subtitle="false"/>
+  
   <div class="content">
     
   </div>
