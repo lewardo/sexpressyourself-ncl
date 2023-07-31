@@ -1,6 +1,9 @@
 :root {
-  --colour-background: var(--vt-c-white);
-  --colour-button-link: ;
+  --colour-background: #72b3ff;
+  --colour-emphasis: #ff3131;
+  --colour-text-emphasis: #ffffff;
+  --colour-neutral: #0f0a62;
+  --colour-text: #000000;
 }
 
 *,
@@ -24,7 +27,7 @@ body {
   color: var(--color-text);
   background: var(--color-background);
 
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
 
   font-family: 'Poppins', sans-serif;
   text-rendering: optimizeLegibility;
