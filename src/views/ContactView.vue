@@ -17,9 +17,8 @@ import PageTitle from '@/components/PageTitle.vue'
 </template>
 
 <style scoped>
-  .content {
-    flex-grow: 1;
-  }
+    @import '@/assets/view.css';
+
 
   .contacts {
         font-size: min(3vh, 6vw);

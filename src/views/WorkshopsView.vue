@@ -24,8 +24,8 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
 </template>
 
 <style scoped>
+  @import '@/assets/view.css';
   .content {
     width: 100%;
-    flex-grow: 1;
   }
 </style>
