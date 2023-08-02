@@ -3,21 +3,23 @@ import PageTitle from '@/components/PageTitle.vue'
 </script>
 
 <template>
-  <PageTitle title="About"/>
+    <PageTitle title="About"/>
 
-  <div class="content">
-      <img src="@/assets/img/logo_full_nobg.png" alt="sexpression newcastle logo">
-      <hr>
-      <div class="info">
-          Sexpression:&#8203;Newcastle is a thing
-      </div>
-  </div>
+    <div class="content">
+        <div class="img">
+            <img src="@/assets/img/logo_full_nobg.png" alt="sexpression newcastle logo">
+        </div>
+        <hr>
+        <div class="info">
+            Sexpression:&#8203;Newcastle is a thing
+        </div>
+    </div>
 </template>
 
 <style scoped>
     @import '@/assets/view.css';
 
-  .content {
+    .content {
         width: 90%;
         display: flex;
         border-radius: 24px;
@@ -29,31 +31,16 @@ import PageTitle from '@/components/PageTitle.vue'
         border: 1px solid #00000020;
     }
 
-    @media screen and ( min-aspect-ratio: 4/5 ) {
-        .content img {
-            height: 100%;
-        }
-
-        .content .info {
-            flex-grow: 1;
-            padding: 24px;
-        }
+    .content .img {
+        height: 100%;
+        aspect-ratio: 1 / 1;
+        position: relative;
     }
 
-    @media screen and ( max-aspect-ratio: 4/5 ) {
-        .content {
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .content img {
-            height: 20vh;
-        }
-
-       .content .info {
-            width: 100%;
-            flex-grow: 1;
-            padding: 0 4vh 2vh;
-        }
+    .img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
     }
 </style>
