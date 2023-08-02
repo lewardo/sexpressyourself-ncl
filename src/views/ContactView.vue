@@ -5,8 +5,8 @@ import PageTitle from '@/components/PageTitle.vue'
 <template>
   <PageTitle title="Contact Us"/>
   
-  <img src="@/assets/img/arrow.svg" class="arrow" alt="">
   <div class="contacts">
+      <img src="@/assets/img/arrow.svg" class="arrow" alt="">
       <div class="mailing-list">
           Fill in the form on the left to join our mailing list for updates!
       </div>
@@ -21,7 +21,6 @@ import PageTitle from '@/components/PageTitle.vue'
     flex-grow: 1;
   }
 
-  
   .contacts {
         font-size: min(3vh, 6vw);
         width: 90%;
@@ -36,7 +35,7 @@ import PageTitle from '@/components/PageTitle.vue'
         z-index: 2;
     }
 
-    .contacts .contact-mail a, .contacts .contact-mail a:visited {
+    .contact-mail :is(a, a:visited) {
         color: #0f0a62;
     }
 
