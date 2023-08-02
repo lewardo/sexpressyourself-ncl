@@ -43,6 +43,7 @@ import PageTitle from '@/components/PageTitle.vue'
         bottom: 10vh;
         left: -5vh;
         height: 40vh;
+        z-index: -1;
         transform: rotate(-60deg) scaleX(-1);
     }
 
