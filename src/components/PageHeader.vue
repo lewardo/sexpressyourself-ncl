@@ -26,7 +26,7 @@ import { RouterLink } from 'vue-router'
 <style scoped>
     .header {
         width: 100%;
-        height: 12%;
+        height: 10%;
         display: flex;
         flex-direction: row;
         align-items: center;
