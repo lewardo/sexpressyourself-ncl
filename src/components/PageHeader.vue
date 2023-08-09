@@ -4,19 +4,19 @@ import { RouterLink } from 'vue-router'
 
 <template>
     <nav class="header">
-        <RouterLink to="/speakers">
+        <RouterLink class="router-link" to="/speakers">
             <span>Speakers&nbsp;</span>
             <i class="fa fa-user"></i>
         </RouterLink>
-        <RouterLink to="/workshops">
+        <RouterLink class="router-link" to="/workshops">
             <span>Workshops&nbsp;</span>
             <i class="fa fa-calendar"></i>
         </RouterLink>
-        <RouterLink to="/about">
+        <RouterLink class="router-link" to="/about">
             <span>About&nbsp;</span>
             <i class="fa fa-question"></i>
         </RouterLink>
-        <RouterLink to="/contact">
+        <RouterLink class="router-link" to="/contact">
             <span>Contact&nbsp;</span>
             <i class="fa fa-envelope"></i>
         </RouterLink>
@@ -33,7 +33,7 @@ import { RouterLink } from 'vue-router'
         justify-content: space-around;
     }
 
-    .header > * {
+    .header .router-link {
         line-height: min(6vh, 8vw);
         font-size: min(3vh, 4vw);
         text-align: center;
@@ -44,18 +44,23 @@ import { RouterLink } from 'vue-router'
         border-radius: 3vh;
         cursor: pointer;
         padding: 0 10px;
+        box-shadow: 0 0 4px 0 #000;
     }
 
-    .header > * i {
+    .header .router-link:active {
+        box-shadow: none;
+    }
+
+    .header .router-link i {
         font-weight: light;
     }
 
     @media screen and ( max-aspect-ratio: 1/1 ) {
-        .header > * {
+        .header .router-link {
             min-width: min(6vh, 8vw);
         }
 
-        .header > * span {
+        .header .router-link span {
             display: none;
         }
     }

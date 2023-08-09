@@ -24,6 +24,16 @@
         justify-content: center;
     }
 
+    .footer a {
+        color: var(--colour-text-emphasis);
+        background-color: var(--colour-emphasis);
+        box-shadow: 0 0 4px 0 #000;
+    }
+
+    .footer a:active {
+        box-shadow: none;
+    }
+
     .footer a.mail {
         line-height: min(6vh, 8vw);
         font-size: min(3vh, 4vw);
@@ -33,8 +43,6 @@
         border-radius: 6vh;
         text-align: center;
         text-decoration: none;
-        color: var(--colour-text-emphasis);
-        background-color: var(--colour-emphasis);
     }
 
     .footer a.tickets {
@@ -44,8 +52,6 @@
         border-radius: 6vh;
         text-align: center;
         text-decoration: none;
-        color: var(--colour-text-emphasis);
-        background-color: var(--colour-emphasis);
     }
 
     .footer a.logo {
@@ -54,6 +60,9 @@
         height: 100%;
         display: flex;
         align-items: center;
+        background-color: #00000000;
+        border: none;
+        box-shadow: none;
     }
 
     .footer a.logo img {

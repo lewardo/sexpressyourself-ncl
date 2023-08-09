@@ -74,6 +74,7 @@ defineProps({
     background-color: #0f0a62;
     padding: 0 min(24px, 5vw);
     border-radius: 100vw;
+    box-shadow: 0 0 4px 0 #000;
 }
 
 .subtitle a {
@@ -83,5 +84,10 @@ defineProps({
     padding: 0 min(24px, 5vw);
     margin: 0 0 0 12px;
     border-radius: 100vw;
+    box-shadow: 0 0 4px 0 #000;
+}
+
+.subtitle a:active {
+    box-shadow: none;
 }
 </style>
