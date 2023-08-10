@@ -8,11 +8,7 @@ import PageTitle from '@/components/PageTitle.vue'
     <div class="content">
         <div class="msg">
             <span> 
-                Join us for NC@NCL, 
-                <!-- <span style="text-shadow: 0 0 8px #9b01ff;"> -->
-                    Sexpression
-                <!-- </span>  -->
-                National Conference 2023
+                Join us for NC@NCL, Sexpression National Conference 2023
             </span>
             <br />
             <span> Sat 4th and Sun 5th November 2023 </span>
