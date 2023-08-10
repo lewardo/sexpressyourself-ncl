@@ -60,6 +60,7 @@
         height: 100%;
         display: flex;
         align-items: center;
+        justify-content: flex-end;
         background-color: #00000000;
         border: none;
         box-shadow: none;
