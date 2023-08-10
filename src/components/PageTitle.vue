@@ -36,6 +36,7 @@ defineProps({
         </div>
         <Countdown v-else deadline="2023-11-04 00:00:00" 
                     countdownSize="8vmin"
+                    labelSize="2vmin"
                     mainColor="#fff" 
                     secondFlipColor="#fff" 
                     mainFlipBackgroundColor="#004aad" 
