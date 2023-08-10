@@ -34,7 +34,7 @@ defineProps({
                 <span class="download-schedule">Schedule</span>
             </a>
         </div>
-        <Countdown v-else  deadline="2023-11-04 00:00:00" 
+        <Countdown v-else deadline="2023-11-04 00:00:00" 
                     countdownSize="8vmin"
                     mainColor="#fff" 
                     secondFlipColor="#fff" 
