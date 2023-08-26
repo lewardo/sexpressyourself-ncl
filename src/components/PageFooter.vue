@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <a href="https://cataas.com/cat/says/no%20email%20yet" class="mail">
+        <a href="https://eepurl.com/ix05Gs" class="mail">
             <i class="fa fa-envelope"></i>
         </a>
         <a href="https://cataas.com/cat/says/no%20tickets%20yet" class="tickets">
