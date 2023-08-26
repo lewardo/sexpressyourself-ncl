@@ -12,9 +12,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
         <CarouselWrapper>
             <CarouselSlide name="one" prev="three" next="two">
                 <div class="card">
-                    <div class="workshop-img">
-                        <img src="@/assets/img/persons/dami.jpg" alt="Dami Fawehinmi">
-                    </div>
+                    <img src="@/assets/img/persons/dami.jpg" alt="Dami Fawehinmi">
                     <div class="workshop-info"> 
                         <div class="workshop-name">Collage Workshop</div>
                         <div class="workshop-desc">
@@ -45,11 +43,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
     background-color: #1a60d688;
 }
 
-.workshop-img {
-    height: 100%;
-}
-
-.workshop-img img {
+img {
     height: 100%;
 }
 
@@ -63,7 +57,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
 }
 
 @media screen and (max-aspect-ratio: 5/4) {
-    .workshop-img {
+    img {
         display: none;
     }
 }
