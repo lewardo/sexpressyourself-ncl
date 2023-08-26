@@ -1,4 +1,5 @@
 <script setup>
+import { Countdown } from 'vue3-flip-countdown'
 import PageTitle from '@/components/PageTitle.vue'
 </script>
 
@@ -10,10 +11,20 @@ import PageTitle from '@/components/PageTitle.vue'
             <span> 
                 Join us for NC@NCL, Sexpression National Conference 2023
             </span>
-            <br />
-            <span> Sat 4th and Sun 5th November 2023 </span>
+            <span> 
+                Sat 4th and Sun 5th November 2023 
+            </span>
         </div>
     </div>
+
+    <Countdown deadline="2023-11-04 10:00:00" 
+                   countdownSize="10vmin"
+                   labelSize="2.5vmin"
+                   mainColor="#fff" 
+                   secondFlipColor="#fff" 
+                   mainFlipBackgroundColor="#1a60d6" 
+                   secondFlipBackgroundColor="#1a60d6" 
+        />
 </template>
 
 <style scoped>
@@ -26,12 +37,11 @@ import PageTitle from '@/components/PageTitle.vue'
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     text-align: center;
-}
-
-.content .flip-clock {
-    align-self: flex-start;
-    margin: 2vh auto;
+    background-color: #1a60d688;
+    border-radius: 24px;
+    margin-bottom: 2vh;
 }
 
 .content hr {
@@ -39,10 +49,11 @@ import PageTitle from '@/components/PageTitle.vue'
 }
 
 .content .msg {
-    font-size: min(4vw, 4vh);
-    /* flex-grow: 1;
+    font-size: min(6vw, 4vh);
+    color: #fff;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center; */
+    justify-content: center;
 }
 </style>

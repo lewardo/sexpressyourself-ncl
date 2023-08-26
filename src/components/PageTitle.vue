@@ -1,6 +1,4 @@
 <script setup>
-import { Countdown } from 'vue3-flip-countdown'
-
 defineProps({
     title: {
         type: String,
@@ -34,15 +32,6 @@ defineProps({
                 <span class="download-schedule">Schedule</span>
             </a>
         </div>
-        <Countdown v-else deadline="2023-11-04 00:00:00" 
-                    countdownSize="8vmin"
-                    labelSize="2vmin"
-                    mainColor="#fff" 
-                    secondFlipColor="#fff" 
-                    mainFlipBackgroundColor="#004aad" 
-                    secondFlipBackgroundColor="#1a60d6" 
-        />
-        <br />
     </div>
 </template>
 
@@ -52,6 +41,7 @@ defineProps({
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 0 2vh;
 }
 
 .title > a {
@@ -63,13 +53,6 @@ defineProps({
 
 .title-img {
     height: 100%;
-}
-
-
-.flip-clock {
-    /* align-self: flex-start; */
-    /* margin: 2vh auto; */
-    padding: 1vh 0 0 0;
 }
 
 @media screen and (max-aspect-ratio: 5/4) {
@@ -84,7 +67,7 @@ defineProps({
     font-size: min(3vh, 4vw);
     display: flex;
     justify-content: center;
-    margin: 1vh 0;
+    margin: 1vh 0 0 0;
 }
 
 .subtitle > span {
