@@ -21,7 +21,8 @@ import PageTitle from '@/components/PageTitle.vue'
 @import '@/assets/view.css';
 
 .content {
-    font-size: min(3vh, 6vw);
+    font-size: min(6vw, 4vh);
+    color: #fff;
     width: 90%;
     flex-grow: 1;
     display: flex;
@@ -29,7 +30,7 @@ import PageTitle from '@/components/PageTitle.vue'
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #00000020;
+    background-color: #1a60d688;
     border-radius: 24px;
     z-index: 2;
 }
