@@ -53,8 +53,8 @@
         overflow-y: hidden;
         scroll-behavior: smooth;
         scroll-snap-type: x mandatory;
-        scrollbar-width: 0;
-        -ms-overflow-style: 0;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
     }
 
     .carousel-viewport::-webkit-scrollbar {
