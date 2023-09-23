@@ -57,7 +57,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             </CarouselSlide>
             <CarouselSlide name="burlesque-workshop" prev="drawing-workshop" next="collage-workshop">
                 <div class="card">
-                    <!-- <img src="@/assets/img/persons/dami.jpg" alt="Dami Fawehinmi"> -->
+                    <img src="@/assets/img/persons/vintage.jpg" alt="Dami Fawehinmi">
                     <div class="workshop-info"> 
                         <div class="workshop-name">Burleqsue Dance Workshop</div>
                         <div class="workshop-desc">
