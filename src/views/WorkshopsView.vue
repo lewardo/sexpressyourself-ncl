@@ -111,7 +111,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                         <img
                             style="--centre: 50%"
                             src="@/assets/img/persons/vintage.png"
-                            alt="Dami Fawehinmi" />
+                            alt="Trixie Blue" />
                     </div>
                     <div class="workshop-info">
                         <div class="workshop-name">Burleqsue Dance Workshop</div>
