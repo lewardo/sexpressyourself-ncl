@@ -13,10 +13,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             <CarouselSlide name="carvalho" prev="etherson" next="etherson">
                 <div class="card">
                     <div class="speaker-img">
-                        <img
-                            style="--centre: 50%"
-                            src="@/assets/img/persons/marina.png"
-                            alt="Marina Carvalho" />
+                        <img src="@/assets/img/persons/marina.png" alt="Marina Carvalho"/>
                     </div>
                     <div class="speaker-info">
                         <div class="speaker-name">Marina Carvalho</div>
@@ -42,10 +39,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             <CarouselSlide name="etherson" prev="carvalho" next="carvalho">
                 <div class="card">
                     <div class="speaker-img">
-                        <img
-                            style="--centre: 50%"
-                            src="@/assets/img/persons/lisa.png"
-                            alt="Dami Fawehinmi" />
+                        <img src="@/assets/img/persons/lisa.png" alt="Dami Fawehinmi"/>
                     </div>
                     <div class="speaker-info">
                         <div class="speaker-name">Lisa Etherson</div>
@@ -78,7 +72,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
     height: 100%;
     display: flex;
     color: #fff;
-    font-size: 2vh;
+    font-size: 2.5vh;
     background-color: #1a60d688;
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -99,7 +93,7 @@ img {
     height: 100%;
     position: relative;
     left: 50%;
-    transform: translateX(calc(-1 * var(--centre)));
+    transform: translateX(-50%);
 }
 
 .speaker-info {

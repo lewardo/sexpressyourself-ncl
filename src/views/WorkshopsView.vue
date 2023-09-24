@@ -13,10 +13,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             <CarouselSlide name="collage-workshop" prev="burlesque-workshop" next="tote-workshop">
                 <div class="card">
                     <div class="workshop-img">
-                        <img
-                            style="--centre: 50%"
-                            src="@/assets/img/persons/dami.jpg"
-                            alt="Dami Fawehinmi" />
+                        <img src="@/assets/img/persons/dami.jpg" alt="Dami Fawehinmi"/>
                     </div>
                     <div class="workshop-info">
                         <div class="workshop-name">Collage Workshop</div>
@@ -38,7 +35,6 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                 <div class="card">
                     <div class="workshop-img">
                         <!-- <img
-                            style="--centre: -25%"
                             src="@/assets/img/persons/dami.jpg"
                             alt="Dami Fawehinmi" /> -->
                     </div>
@@ -61,7 +57,6 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                 <div class="card">
                     <div class="workshop-img">
                         <!-- <img
-                            style="--centre: -25%"
                             src="@/assets/img/persons/dami2.jpg"
                             alt="Dami Fawehinmi" /> -->
                     </div>
@@ -84,7 +79,6 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                 <div class="card">
                     <div class="workshop-img">
                         <!-- <img
-                            style="--centre: -25%"
                             src="@/assets/img/persons/dami2.jpg"
                             alt="Dami Fawehinmi" /> -->
                     </div>
@@ -108,10 +102,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                 next="collage-workshop">
                 <div class="card">
                     <div class="workshop-img">
-                        <img
-                            style="--centre: 50%"
-                            src="@/assets/img/persons/vintage.png"
-                            alt="Trixie Blue" />
+                        <img src="@/assets/img/persons/vintage.png" alt="Trixie Blue" />
                     </div>
                     <div class="workshop-info">
                         <div class="workshop-name">Burleqsue Dance Workshop</div>
@@ -149,7 +140,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
     height: 100%;
     display: flex;
     color: #fff;
-    font-size: 2vh;
+    font-size: 2.5vh;
     background-color: #1a60d688;
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -170,7 +161,7 @@ img {
     height: 100%;
     position: relative;
     left: 50%;
-    transform: translateX(calc(-1 * var(--centre)));
+    transform: translateX(-50%);
 }
 
 .workshop-info {

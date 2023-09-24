@@ -8,7 +8,7 @@ import PageTitle from "@/components/PageTitle.vue"
     <div class="content">
         <div class="info">
             Sexpression:&#8203;Newcastle form part of the UK-wide sex-education charity <a href="https://sexpression.org.uk/">Sexpression:UK</a>.
-            This year, Newcastle are the nominated hosts of the Sexpression:UK National Conference 2023 with the theme '(S)express Yourself'. We hope to welcome up to 120 attendees, made up of Sexpression members and alumni, as well as members of the general public interested in sexual health.
+            This year, Newcastle are the nominated hosts of the Sexpression:UK National Conference 2023 with the theme <span style="color: var(--colour-emphasis)">(S)express Yourself</span>. We hope to welcome up to 120 attendees, made up of Sexpression members and alumni, as well as members of the general public interested in sexual health.
         </div>
     </div>
 </template>
