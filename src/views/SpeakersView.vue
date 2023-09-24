@@ -43,7 +43,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                 <div class="card">
                     <div class="speaker-img">
                         <img
-                            style="--centre: -25%"
+                            style="--centre: 50%"
                             src="@/assets/img/persons/lisa.png"
                             alt="Dami Fawehinmi" />
                     </div>

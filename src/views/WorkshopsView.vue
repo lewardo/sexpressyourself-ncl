@@ -14,7 +14,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                 <div class="card">
                     <div class="workshop-img">
                         <img
-                            style="--centre: 40%"
+                            style="--centre: 50%"
                             src="@/assets/img/persons/dami.jpg"
                             alt="Dami Fawehinmi" />
                     </div>
