@@ -36,7 +36,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide name="etherson" prev="carvalho" next="carvalho">
+            <CarouselSlide name="etherson" prev="carvalho" next="sheinman">
                 <div class="card">
                     <div class="speaker-img">
                         <img src="@/assets/img/persons/lisa.png" alt="Dami Fawehinmi"/>
@@ -52,6 +52,26 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                                 therapeutically, usually finding herself discussing the most taboo
                                 of subjects. She is a keen advocate for accurate, timely sex
                                 education.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="sheinman" prev="etherson" next="carvalho">
+                <div class="card">
+                    <div class="speaker-img">
+                        <img src="@/assets/img/persons/gem.png" alt="Dami Fawehinmi"/>
+                    </div>
+                    <div class="speaker-info">
+                        <div class="speaker-name">Lisa Etherson</div>
+                        <div class="speaker-desc">
+                            <div>
+                                Gem Sheinman is a qualified Psychotherapeutic Counsellor who practises 
+                                person centred and transactional analysis therapy. Gem is an a LGBTQ+ 
+                                identified therapist, and specialises in working with Queer people and 
+                                couples to negotiate relationships, lives and family dynamics. Our 
+                                intersecting identities impact our lived experience, and deepening 
+                                self-understanding towards a fuller, more authentic and enriching life.
                             </div>
                         </div>
                     </div>
