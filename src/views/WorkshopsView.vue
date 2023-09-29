@@ -10,10 +10,10 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
 
     <div class="content">
         <CarouselWrapper>
-            <CarouselSlide name="collage-workshop" prev="burlesque-workshop" next="tote-workshop">
+            <CarouselSlide name="collage-workshop" prev="meditation-workshop" next="tote-workshop">
                 <div class="card">
                     <div class="workshop-img">
-                        <img src="@/assets/img/persons/dami.jpg" alt="Dami Fawehinmi"/>
+                        <img src="@/assets/img/persons/dami.png" alt="Dami Fawehinmi"/>
                     </div>
                     <div class="workshop-info">
                         <div class="workshop-name">Collage Workshop</div>
@@ -96,10 +96,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide
-                name="burlesque-workshop"
-                prev="drawing-workshop"
-                next="collage-workshop">
+            <CarouselSlide name="burlesque-workshop" prev="drawing-workshop" next="meditation-workshop">
                 <div class="card">
                     <div class="workshop-img">
                         <img src="@/assets/img/persons/vintage.png" alt="Trixie Blue" />
@@ -120,6 +117,26 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                                 a supportive atmosphere. No experience required and no nudity. 18+
                                 all bodies & genders welcome. (please wear comfortable shoes and
                                 clothing, such as leggings and a tshirt - whatever works for you)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="meditation-workshop" prev="burlesque-workshop" next="collage-workshop">
+                <div class="card">
+                    <div class="workshop-img">
+                        <img src="@/assets/img/persons/meditation.png" alt="" />
+                    </div>
+                    <div class="workshop-info">
+                        <div class="workshop-name">The Way My Body Feels</div>
+                        <div class="workshop-desc">
+                            <div>
+                                An interactive workshop led by artist Olivia Turner and Classical archaeologist 
+                                Sally Waite, to consider the links between objects, art, and medicine. Through 
+                                meditation, votive object handling, and art making we will explore the different 
+                                ways we 'imagine our insides'. The Way My Body Feels demonstrates the transformative 
+                                role ancient objects can play in learning about the body and in particular, the 
+                                body in medicine.
                             </div>
                         </div>
                     </div>
