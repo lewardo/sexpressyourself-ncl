@@ -79,7 +79,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             </CarouselSlide>
             <CarouselSlide name="temp-1" prev="sheinman" next="temp-2">
                 <div class="card">
-                    <div class="speaker-img">
+                    <div class="speaker-img patched">
                         <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="speaker-info">
@@ -94,7 +94,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             </CarouselSlide>
             <CarouselSlide name="temp-2" prev="temp-1" next="temp-3">
                 <div class="card">
-                    <div class="speaker-img">
+                    <div class="speaker-img patched">
                         <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="speaker-info">
@@ -109,7 +109,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             </CarouselSlide>
             <CarouselSlide name="temp-3" prev="temp-2" next="carvalho">
                 <div class="card">
-                    <div class="speaker-img">
+                    <div class="speaker-img patched">
                         <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="speaker-info">
@@ -154,6 +154,10 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
     overflow: hidden;
     z-index: 1;
     background-color: white;
+}
+
+.speaker-img.patched {
+    width: 40%;
 }
 
 img {
@@ -209,7 +213,7 @@ img {
         overflow: visible;
     }
 
-    .speaker-img {
+    .speaker-img, .speaker-img.patched {
         width: 100%;
         aspect-ratio: 16 / 9;
         height: auto;

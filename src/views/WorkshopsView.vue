@@ -155,7 +155,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             </CarouselSlide>
             <CarouselSlide name="temp-1" prev="drawing-workshop" next="temp-2">
                 <div class="card">
-                    <div class="workshop-img">
+                    <div class="workshop-img patched">
                         <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="workshop-info">
@@ -170,7 +170,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             </CarouselSlide>
             <CarouselSlide name="temp-2" prev="temp-1" next="temp-3">
                 <div class="card">
-                    <div class="workshop-img">
+                    <div class="workshop-img patched">
                         <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="workshop-info">
@@ -185,7 +185,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             </CarouselSlide>
             <CarouselSlide name="temp-3" prev="temp-2" next="collage-workshop">
                 <div class="card">
-                    <div class="workshop-img">
+                    <div class="workshop-img patched">
                         <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="workshop-info">
@@ -230,6 +230,10 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
     overflow: hidden;
     z-index: 1;
     background-color: white;
+}
+
+.workshop-img.patched {
+    width: 40%;
 }
 
 img {
@@ -285,7 +289,7 @@ img {
         overflow: visible;
     }
 
-    .workshop-img {
+    .workshop-img, .workshop-img.patched {
         width: 100%;
         aspect-ratio: 16 / 9;
         height: auto;
