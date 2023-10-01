@@ -80,7 +80,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             <CarouselSlide name="temp-1" prev="sheinman" next="temp-2">
                 <div class="card">
                     <div class="speaker-img">
-                        <!-- <img src="@/assets/img/persons/gem.png" alt="Dami Fawehinmi"/> -->
+                        <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="speaker-info">
                         <div class="speaker-name">To be Announced</div>
@@ -95,7 +95,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             <CarouselSlide name="temp-2" prev="temp-1" next="temp-3">
                 <div class="card">
                     <div class="speaker-img">
-                        <!-- <img src="@/assets/img/persons/gem.png" alt="Dami Fawehinmi"/> -->
+                        <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="speaker-info">
                         <div class="speaker-name">To be Announced</div>
@@ -110,7 +110,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             <CarouselSlide name="temp-3" prev="temp-2" next="carvalho">
                 <div class="card">
                     <div class="speaker-img">
-                        <!-- <img src="@/assets/img/persons/gem.png" alt="Dami Fawehinmi"/> -->
+                        <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="speaker-info">
                         <div class="speaker-name">To be Announced</div>

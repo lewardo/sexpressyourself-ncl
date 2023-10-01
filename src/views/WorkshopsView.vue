@@ -10,7 +10,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
 
     <div class="content">
         <CarouselWrapper>
-            <CarouselSlide name="collage-workshop" prev="temp-3" next="tote-workshop">
+            <CarouselSlide name="collage-workshop" prev="temp-3" next="burlesque-workshop">
                 <div class="card">
                     <div class="workshop-img">
                         <img src="@/assets/img/persons/dami.png" alt="Dami Fawehinmi"/>
@@ -31,72 +31,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide name="tote-workshop" prev="collage-workshop" next="cupcake-workshop">
-                <div class="card">
-                    <div class="workshop-img">
-                        <!-- <img
-                            src="@/assets/img/persons/dami.jpg"
-                            alt="Dami Fawehinmi" /> -->
-                    </div>
-                    <div class="workshop-info">
-                        <div class="workshop-name">Tote Bag Workshop</div>
-                        <div class="workshop-desc">
-                            <div>
-                                Hone in to your creative side and really (s)express yourself with
-                                this tote bag designing and decorating workshop. We'll have
-                                sex-positive instructions on how to make your very own vulva tote
-                                (you can even add labels if you want an extra educational twist),
-                                but you can also freely explore your own tote bag ideas! Come along
-                                to find out what you can create.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </CarouselSlide>
-            <CarouselSlide name="cupcake-workshop" prev="tote-workshop" next="drawing-workshop">
-                <div class="card">
-                    <div class="workshop-img">
-                        <!-- <img
-                            src="@/assets/img/persons/dami2.jpg"
-                            alt="Dami Fawehinmi" /> -->
-                    </div>
-                    <div class="workshop-info">
-                        <div class="workshop-name">Cupcake Decorating Workshop</div>
-                        <div class="workshop-desc">
-                            <div>
-                                Cupcakes... clitcakes... a whole lotta cakes! In this workshop,
-                                we'll be letting you loose with fondant, icing, and lots of other
-                                goodies - so you can design and make (and eventually, eat) your own
-                                sex-positive cupcakes. Our committee will be having a go at the
-                                Netlflix-inspired vulva cupcakes, but feel free to be inspired and
-                                be creative!
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </CarouselSlide>
-            <CarouselSlide name="drawing-workshop" prev="cupcake-workshop" next="burlesque-workshop">
-                <div class="card">
-                    <div class="workshop-img">
-                        <!-- <img
-                            src="@/assets/img/persons/dami2.jpg"
-                            alt="Dami Fawehinmi" /> -->
-                    </div>
-                    <div class="workshop-info">
-                        <div class="workshop-name">Life Drawing Workshop</div>
-                        <div class="workshop-desc">
-                            <div>
-                                Come and try your hand at life drawing in this safe, positive
-                                environment. Our model Rikki will be clothed, he is absolutely
-                                lovely, and the session will be guided by one of our committee
-                                members. Please note that phones will be kept in a box throughout
-                                this workshop, to help with the safe atmosphere.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </CarouselSlide>
-            <CarouselSlide name="burlesque-workshop" prev="drawing-workshop" next="meditation-workshop">
+            <CarouselSlide name="burlesque-workshop" prev="collage-workshop" next="meditation-workshop">
                 <div class="card">
                     <div class="workshop-img">
                         <img src="@/assets/img/persons/vintage.png" alt="Trixie Blue" />
@@ -142,7 +77,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide name="freewriting-workshop" prev="meditation-workshop" next="temp-1">
+            <CarouselSlide name="freewriting-workshop" prev="meditation-workshop" next="tote-workshop">
                 <div class="card">
                     <div class="workshop-img">
                         <img src="@/assets/img/persons/stamper.jpg" alt="Isaac Stamper" />
@@ -159,10 +94,69 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide name="temp-1" prev="freewriting-workshop" next="temp-2">
+            <CarouselSlide name="tote-workshop" prev="freewriting-workshop" next="cupcake-workshop">
                 <div class="card">
                     <div class="workshop-img">
-                        <!-- <img src="@/assets/img/persons/stamper.jpg" alt="Isaac Stamper" /> -->
+                        <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
+                    </div>
+                    <div class="workshop-info">
+                        <div class="workshop-name">Tote Bag Workshop</div>
+                        <div class="workshop-desc">
+                            <div>
+                                Hone in to your creative side and really (s)express yourself with
+                                this tote bag designing and decorating workshop. We'll have
+                                sex-positive instructions on how to make your very own vulva tote
+                                (you can even add labels if you want an extra educational twist),
+                                but you can also freely explore your own tote bag ideas! Come along
+                                to find out what you can create.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="cupcake-workshop" prev="tote-workshop" next="drawing-workshop">
+                <div class="card">
+                    <div class="workshop-img">
+                        <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
+                    </div>
+                    <div class="workshop-info">
+                        <div class="workshop-name">Cupcake Decorating Workshop</div>
+                        <div class="workshop-desc">
+                            <div>
+                                Cupcakes... clitcakes... a whole lotta cakes! In this workshop,
+                                we'll be letting you loose with fondant, icing, and lots of other
+                                goodies - so you can design and make (and eventually, eat) your own
+                                sex-positive cupcakes. Our committee will be having a go at the
+                                Netlflix-inspired vulva cupcakes, but feel free to be inspired and
+                                be creative!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="drawing-workshop" prev="cupcake-workshop" next="temp-1">
+                <div class="card">
+                    <div class="workshop-img">
+                        <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
+                    </div>
+                    <div class="workshop-info">
+                        <div class="workshop-name">Life Drawing Workshop</div>
+                        <div class="workshop-desc">
+                            <div>
+                                Come and try your hand at life drawing in this safe, positive
+                                environment. Our model Rikki will be clothed, he is absolutely
+                                lovely, and the session will be guided by one of our committee
+                                members. Please note that phones will be kept in a box throughout
+                                this workshop, to help with the safe atmosphere.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="temp-1" prev="drawing-workshop" next="temp-2">
+                <div class="card">
+                    <div class="workshop-img">
+                        <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="workshop-info">
                         <div class="workshop-name">To be Announced</div>
@@ -177,7 +171,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             <CarouselSlide name="temp-2" prev="temp-1" next="temp-3">
                 <div class="card">
                     <div class="workshop-img">
-                        <!-- <img src="@/assets/img/persons/stamper.jpg" alt="Isaac Stamper" /> -->
+                        <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="workshop-info">
                         <div class="workshop-name">To be Announced</div>
@@ -192,7 +186,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             <CarouselSlide name="temp-3" prev="temp-2" next="collage-workshop">
                 <div class="card">
                     <div class="workshop-img">
-                        <!-- <img src="@/assets/img/persons/stamper.jpg" alt="Isaac Stamper" /> -->
+                        <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="workshop-info">
                         <div class="workshop-name">To be Announced</div>
