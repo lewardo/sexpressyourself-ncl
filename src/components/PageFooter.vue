@@ -3,14 +3,29 @@
         <a href="https://eepurl.com/ix05Gs" class="mail">
             <i class="fa fa-envelope"></i>
         </a>
-        <a href="https://cataas.com/cat/says/no%20tickets%20yet" class="tickets">
-            Get Tickets
+        <a href="#" class="tickets" @click.prevent="notickets">
+           {{ msg }}
         </a>
         <a href="https://sexpression.org.uk" class="logo">
             <img src="@/assets/img/logo_nobg.png" alt="Sexpression Logo" draggable="false">
         </a>
     </div>
 </template>
+
+<script>
+    export default {
+        data() {
+            return {
+                msg: `Get Tickets`,
+            }
+        },
+        methods: {
+            notickets() {
+                this.msg = `Tickets go live on Monday 2nd October!`;
+            }
+        }
+    }
+</script>
 
 <style scoped>
     .footer {
