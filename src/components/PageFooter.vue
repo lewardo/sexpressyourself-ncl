@@ -21,7 +21,7 @@
         },
         methods: {
             notickets() {
-                this.msg = `Tickets go live on Monday 2nd October!`;
+                this.msg = `Tickets live 02/10!`;
             }
         }
     }

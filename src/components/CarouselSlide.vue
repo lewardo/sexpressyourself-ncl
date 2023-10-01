@@ -46,7 +46,7 @@ defineProps({
 }
 
 .carousel-content {
-    max-width: 80%;
+    width: 80%;
     height: 100%;
     border-radius: 24px;
     overflow: hidden;

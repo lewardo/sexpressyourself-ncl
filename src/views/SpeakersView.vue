@@ -10,7 +10,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
 
     <div class="content">
         <CarouselWrapper>
-            <CarouselSlide name="carvalho" prev="sheinman" next="etherson">
+            <CarouselSlide name="carvalho" prev="temp-3" next="etherson">
                 <div class="card">
                     <div class="speaker-img">
                         <img src="@/assets/img/persons/marina.png" alt="Marina Carvalho"/>
@@ -39,7 +39,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
             <CarouselSlide name="etherson" prev="carvalho" next="sheinman">
                 <div class="card">
                     <div class="speaker-img">
-                        <img src="@/assets/img/persons/lisa.png" alt="Dami Fawehinmi"/>
+                        <img src="@/assets/img/persons/lisa.png" alt="Lisa Etherson"/>
                     </div>
                     <div class="speaker-info">
                         <div class="speaker-name">Lisa Etherson</div>
@@ -57,13 +57,13 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide name="sheinman" prev="etherson" next="carvalho">
+            <CarouselSlide name="sheinman" prev="etherson" next="temp-1">
                 <div class="card">
                     <div class="speaker-img">
-                        <img src="@/assets/img/persons/gem.png" alt="Dami Fawehinmi"/>
+                        <img src="@/assets/img/persons/gem.png" alt="Gem Sheinman"/>
                     </div>
                     <div class="speaker-info">
-                        <div class="speaker-name">Lisa Etherson</div>
+                        <div class="speaker-name">Gem Sheinman</div>
                         <div class="speaker-desc">
                             <div>
                                 Gem Sheinman is a qualified Psychotherapeutic Counsellor who practises 
@@ -72,6 +72,51 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                                 couples to negotiate relationships, lives and family dynamics. Our 
                                 intersecting identities impact our lived experience, and deepening 
                                 self-understanding towards a fuller, more authentic and enriching life.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="temp-1" prev="sheinman" next="temp-2">
+                <div class="card">
+                    <div class="speaker-img">
+                        <!-- <img src="@/assets/img/persons/gem.png" alt="Dami Fawehinmi"/> -->
+                    </div>
+                    <div class="speaker-info">
+                        <div class="speaker-name">To be Announced</div>
+                        <div class="speaker-desc">
+                            <div>
+                                Certain speakers have not yet been announced publicly, stay tuned for any updates!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="temp-2" prev="temp-1" next="temp-3">
+                <div class="card">
+                    <div class="speaker-img">
+                        <!-- <img src="@/assets/img/persons/gem.png" alt="Dami Fawehinmi"/> -->
+                    </div>
+                    <div class="speaker-info">
+                        <div class="speaker-name">To be Announced</div>
+                        <div class="speaker-desc">
+                            <div>
+                                Certain speakers have not yet been announced publicly, stay tuned for any updates!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="temp-3" prev="temp-2" next="carvalho">
+                <div class="card">
+                    <div class="speaker-img">
+                        <!-- <img src="@/assets/img/persons/gem.png" alt="Dami Fawehinmi"/> -->
+                    </div>
+                    <div class="speaker-info">
+                        <div class="speaker-name">To be Announced</div>
+                        <div class="speaker-desc">
+                            <div>
+                                Certain speakers have not yet been announced publicly, stay tuned for any updates!
                             </div>
                         </div>
                     </div>
@@ -93,6 +138,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
     display: flex;
     color: #fff;
     font-size: 2.5vh;
+    border-radius: 24px;
     background-color: #1a60d688;
     scrollbar-width: none;
     -ms-overflow-style: none;

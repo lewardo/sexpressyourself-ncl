@@ -10,7 +10,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
 
     <div class="content">
         <CarouselWrapper>
-            <CarouselSlide name="collage-workshop" prev="freewriting-workshop" next="tote-workshop">
+            <CarouselSlide name="collage-workshop" prev="temp-3" next="tote-workshop">
                 <div class="card">
                     <div class="workshop-img">
                         <img src="@/assets/img/persons/dami.png" alt="Dami Fawehinmi"/>
@@ -142,7 +142,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide name="freewriting-workshop" prev="meditation-workshop" next="collage-workshop">
+            <CarouselSlide name="freewriting-workshop" prev="meditation-workshop" next="temp-1">
                 <div class="card">
                     <div class="workshop-img">
                         <img src="@/assets/img/persons/stamper.jpg" alt="Isaac Stamper" />
@@ -154,6 +154,51 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                                 Isaac Stamper (he/him) will be running an inclusive creative free-writing session on expression 
                                 and independence. All are welcome! No prior practice required, it's just a "give-it-a-go" and 
                                 fun writing workshop. Nice chill vibes included, we want to promote a safe space for free-writing :)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="temp-1" prev="freewriting-workshop" next="temp-2">
+                <div class="card">
+                    <div class="workshop-img">
+                        <!-- <img src="@/assets/img/persons/stamper.jpg" alt="Isaac Stamper" /> -->
+                    </div>
+                    <div class="workshop-info">
+                        <div class="workshop-name">To be Announced</div>
+                        <div class="workshop-desc">
+                            <div>
+                                Certain workshops have not yet been announced publicly, stay tuned for any updates!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="temp-2" prev="temp-1" next="temp-3">
+                <div class="card">
+                    <div class="workshop-img">
+                        <!-- <img src="@/assets/img/persons/stamper.jpg" alt="Isaac Stamper" /> -->
+                    </div>
+                    <div class="workshop-info">
+                        <div class="workshop-name">To be Announced</div>
+                        <div class="workshop-desc">
+                            <div>
+                                Certain workshops have not yet been announced publicly, stay tuned for any updates!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="temp-3" prev="temp-2" next="collage-workshop">
+                <div class="card">
+                    <div class="workshop-img">
+                        <!-- <img src="@/assets/img/persons/stamper.jpg" alt="Isaac Stamper" /> -->
+                    </div>
+                    <div class="workshop-info">
+                        <div class="workshop-name">To be Announced</div>
+                        <div class="workshop-desc">
+                            <div>
+                                Certain workshops have not yet been announced publicly, stay tuned for any updates!
                             </div>
                         </div>
                     </div>
@@ -175,6 +220,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
     display: flex;
     color: #fff;
     font-size: 2.5vh;
+    border-radius: 24px;
     background-color: #1a60d688;
     scrollbar-width: none;
     -ms-overflow-style: none;
