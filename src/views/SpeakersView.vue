@@ -10,7 +10,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
 
     <div class="content">
         <CarouselWrapper>
-            <CarouselSlide name="carvalho" prev="etherson" next="etherson">
+            <CarouselSlide name="carvalho" prev="sheinman" next="etherson">
                 <div class="card">
                     <div class="speaker-img">
                         <img src="@/assets/img/persons/marina.png" alt="Marina Carvalho"/>
