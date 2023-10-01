@@ -10,7 +10,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
 
     <div class="content">
         <CarouselWrapper>
-            <CarouselSlide name="collage-workshop" prev="meditation-workshop" next="tote-workshop">
+            <CarouselSlide name="collage-workshop" prev="freewriting-workshop" next="tote-workshop">
                 <div class="card">
                     <div class="workshop-img">
                         <img src="@/assets/img/persons/dami.png" alt="Dami Fawehinmi"/>
@@ -122,10 +122,10 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide name="meditation-workshop" prev="burlesque-workshop" next="collage-workshop">
+            <CarouselSlide name="meditation-workshop" prev="burlesque-workshop" next="freewriting-workshop">
                 <div class="card">
                     <div class="workshop-img">
-                        <img src="@/assets/img/persons/meditation.png" alt="" />
+                        <img src="@/assets/img/persons/meditation.png" alt="A Meditation Group" />
                     </div>
                     <div class="workshop-info">
                         <div class="workshop-name">The Way My Body Feels</div>
@@ -137,6 +137,23 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                                 ways we 'imagine our insides'. The Way My Body Feels demonstrates the transformative 
                                 role ancient objects can play in learning about the body and in particular, the 
                                 body in medicine.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="freewriting-workshop" prev="meditation-workshop" next="collage-workshop">
+                <div class="card">
+                    <div class="workshop-img">
+                        <img src="@/assets/img/persons/stamper.jpg" alt="Isaac Stamper" />
+                    </div>
+                    <div class="workshop-info">
+                        <div class="workshop-name">Freewriting Workshop</div>
+                        <div class="workshop-desc">
+                            <div>
+                                Isaac Stamper (he/him) will be running an inclusive creative free-writing session on expression 
+                                and independence. All are welcome! No prior practice required, it's just a "give-it-a-go" and 
+                                fun writing workshop. Nice chill vibes included, we want to promote a safe space for free-writing :)
                             </div>
                         </div>
                     </div>
