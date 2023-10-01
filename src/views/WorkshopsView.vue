@@ -229,6 +229,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
     min-width: 40%;
     overflow: hidden;
     z-index: 1;
+    background-color: white;
 }
 
 img {
