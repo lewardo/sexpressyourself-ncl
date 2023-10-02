@@ -3,8 +3,11 @@
         <a href="https://eepurl.com/ix05Gs" class="mail">
             <i class="fa fa-envelope"></i>
         </a>
-        <a href="#" class="tickets" @click.prevent="notickets">
-           {{ msg }}
+        <!-- <a href="#" class="tickets" @click.prevent="notickets"> -->
+            <!-- {{ msg }} -->
+        <!-- </a> -->
+        <a href="https://www.eventbrite.co.uk/e/sexpression-national-conference-2023-tickets-729484697367" class="tickets">
+           Get Tickets
         </a>
         <a href="https://sexpression.org.uk" class="logo">
             <img src="@/assets/img/logo_nobg.png" alt="Sexpression Logo" draggable="false">
@@ -12,7 +15,7 @@
     </div>
 </template>
 
-<script>
+<!-- <script>
     export default {
         data() {
             return {
@@ -25,7 +28,7 @@
             }
         }
     }
-</script>
+</script> -->
 
 <style scoped>
     .footer {
