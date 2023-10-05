@@ -134,7 +134,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide name="drawing-workshop" prev="cupcake-workshop" next="temp-1">
+            <CarouselSlide name="drawing-workshop" prev="cupcake-workshop" next="bounce-workshop">
                 <div class="card">
                     <div class="workshop-img">
                         <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
@@ -153,16 +153,29 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide name="temp-1" prev="drawing-workshop" next="temp-2">
+            <CarouselSlide name="bounce-workshop" prev="drawing-workshop" next="temp-2">
                 <div class="card">
-                    <div class="workshop-img patched">
-                        <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
+                    <div class="workshop-img">
+                        <img src="@/assets/img/persons/azula.png" alt="Azula Bandit" />
                     </div>
                     <div class="workshop-info">
-                        <div class="workshop-name">To be Announced</div>
+                        <div class="workshop-name">Bounce with Bandit</div>
                         <div class="workshop-desc">
                             <div>
-                                Certain workshops have not yet been announced publicly, stay tuned for any updates!
+                                Hey there, booty shakers! Welcome to Bounce with Bandit, where we're all 
+                                about embracing the art of Booty Bouncing. It all started back in 2017 
+                                when Azula Bandit decided it was time to create a space where all Womxn 
+                                could come together, let loose, and dance like nobody's watching.
+                                Azula's the brain (and the booty) behind the operation. Their passion for 
+                                dance and a deep desire to help people feel empowered and expressive led to 
+                                the birth of Bounce with Bandit. We're not just about dance but about 
+                                celebrating confidence and sensuality.
+                                Bounce with Bandit is a judgment-free zone. Everyone is welcome whether 
+                                you're a seasoned dancer or a total newbie. We're all about loving the skin 
+                                you're in.
+                                Confidence is Key: Beyond the dance moves, our classes are confidence-boosting 
+                                experiences. We're here to remind you that your body is incredible, and 
+                                expressing yourself is beautiful.
                             </div>
                         </div>
                     </div>
