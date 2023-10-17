@@ -10,7 +10,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
 
     <div class="content">
         <CarouselWrapper>
-            <CarouselSlide name="collage-workshop" prev="temp-3" next="burlesque-workshop">
+            <CarouselSlide name="collage-workshop" prev="dragsoc-workshop" next="burlesque-workshop">
                 <div class="card">
                     <div class="workshop-img">
                         <img src="@/assets/img/persons/dami.png" alt="Dami Fawehinmi"/>
@@ -181,7 +181,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide name="mythbuster-workshop" prev="bounce-workshop" next="temp-3">
+            <CarouselSlide name="mythbuster-workshop" prev="bounce-workshop" next="dragsoc-workshop">
                 <div class="card">
                     <div class="workshop-img patched">
                         <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
@@ -190,22 +190,26 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                         <div class="workshop-name">Embarassing (female) bodies: busting the myths</div>
                         <div class="workshop-desc">
                             <div>
-                                This workshop, run by a Clinical Nurse Specialist, will cover abnormal vaginal discharge and pain, development, appearances and examination of the external genitalia, and myths regarding HPV and cervical screening.
+                                This workshop, run by a Clinical Nurse Specialist, will cover abnormal vaginal 
+                                discharge and pain, development, appearances and examination of the external 
+                                genitalia, and myths regarding HPV and cervical screening.
                             </div>
                         </div>
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide name="temp-3" prev="mythbuster-workshop" next="collage-workshop">
+            <CarouselSlide name="dragsoc-workshop" prev="mythbuster-workshop" next="collage-workshop">
                 <div class="card">
                     <div class="workshop-img patched">
-                        <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
+                        <img src="@/assets/img/persons/dragsoc.jpg" alt="Sexpression Newcastle Logo" />
                     </div>
                     <div class="workshop-info">
-                        <div class="workshop-name">To be Announced</div>
+                        <div class="workshop-name">The Cocalily and Vendetta Vedele</div>
                         <div class="workshop-desc">
                             <div>
-                                Certain workshops have not yet been announced publicly, stay tuned for any updates!
+                                Join Newcastle University Drag Society's The Cocalily and Vendetta Vedele as 
+                                they lead a 'get ready with me' workshop, and talk about all things sexpressing 
+                                yourself, including gender identity and fetishisation.
                             </div>
                         </div>
                     </div>
