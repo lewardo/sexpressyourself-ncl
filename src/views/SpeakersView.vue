@@ -10,7 +10,36 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
 
     <div class="content">
         <CarouselWrapper>
-            <CarouselSlide name="carvalho" prev="temp-3" next="etherson">
+            <CarouselSlide name="echo" prev="temp-2" next="carvalho">
+                <div class="card">
+                    <div class="speaker-img img-eva">
+                        <img src="@/assets/img/persons/eva.jpg" alt="Eva Echo" />
+                    </div>
+                    <div class="speaker-info">
+                        <div class="speaker-name">Eva Echo</div>
+                        <div class="speaker-desc">
+                            <div>
+                                Eva Echo (she/they) is an activist, writer and public speaker with 
+                                a focus on transgender rights and mental health. She uses her own 
+                                experiences to shed light on what it is to be transgender and to 
+                                challenge the obstacles which gender diverse people face within today's 
+                                society. Most notably, Eva took legal action against NHS England in the 
+                                High Court to challenge the unlawful waiting times for trans patients. 
+                                She won the DIVA Award for Unsung Hero of the Year 2022 and was named 
+                                on the DIVA Power List for 2022 and 2023. She was also named 19th in the 
+                                Pride Power List 2023. Eva won Trans in the City's Trans Community Champion 
+                                award for 2022 and went on to become of their Directors. Eva is also Director 
+                                of Innovation at Birmingham Pride, an ambassador for the charity Diversity 
+                                Role Models and sits on the Crown Prosecution Service's hate crime panel. 
+                                As of 2023, Eva's story was included in the Science Museum's permanent 
+                                "Who Am I?" gallery, which aims to promote diversity and education to all 
+                                current and future generations.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CarouselSlide>
+            <CarouselSlide name="carvalho" prev="echo" next="etherson">
                 <div class="card">
                     <div class="speaker-img">
                         <img src="@/assets/img/persons/marina.png" alt="Marina Carvalho"/>
@@ -107,21 +136,6 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
                     </div>
                 </div>
             </CarouselSlide>
-            <CarouselSlide name="temp-3" prev="temp-2" next="carvalho">
-                <div class="card">
-                    <div class="speaker-img patched">
-                        <img src="@/assets/img/logo_full_wide.png" alt="Sexpression Newcastle Logo" />
-                    </div>
-                    <div class="speaker-info">
-                        <div class="speaker-name">To be Announced</div>
-                        <div class="speaker-desc">
-                            <div>
-                                Certain speakers have not yet been announced publicly, stay tuned for any updates!
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </CarouselSlide>
         </CarouselWrapper>
     </div>
 </template>
@@ -165,6 +179,22 @@ img {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.img-eva {
+    background-image: url('@/assets/img/persons/eva-og.jpg');
+    background-position: top;
+    background-size: cover;
+}
+
+.img-eva img {
+    display: none;
+}
+
+@media screen and (max-aspect-ratio: 4/5) {
+    .img-eva img {
+        display: block;
+    }
 }
 
 .speaker-info {
