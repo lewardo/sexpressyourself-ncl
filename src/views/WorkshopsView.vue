@@ -6,7 +6,7 @@ import CarouselSlide from '@/components/CarouselSlide.vue'
 </script>
 
 <template>
-    <PageTitle title="Workshops" :schedule="false" />
+    <PageTitle title="Workshops" :schedule="true" />
 
     <div class="content">
         <CarouselWrapper>
