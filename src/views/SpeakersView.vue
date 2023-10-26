@@ -254,7 +254,6 @@ img {
         width: 100%;
         overflow: visible;
         position: static;
-        height: auto;
         transform: none;
     }
 }
